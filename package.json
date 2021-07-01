@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"ng serve shell -o\" \"ng serve mfe1 -o\" \"ng serve mfe-documents -o\" \"ng serve mfe-header -o\"",
+    "start": "concurrently \"ng serve shell -o\" \"ng serve mfe1\" \"ng serve mfe-documents\" \"ng serve mfe-header\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
